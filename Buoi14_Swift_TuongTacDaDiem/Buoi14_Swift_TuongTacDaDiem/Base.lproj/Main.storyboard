@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KmS-F6-FKs">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="leg-pu-Vta">
+            <objects>
+                <viewController id="Y0O-d0-7C5" customClass="SecondViewController" customModule="Buoi14_Swift_TuongTacDaDiem" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aFY-eR-bgL"/>
+                        <viewControllerLayoutGuide type="bottom" id="irp-5s-mmG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IsN-J2-TmI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="T7J-hQ-fXZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GWc-Ib-LUB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-876" y="469"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="OTX-fI-D3F">
+            <objects>
+                <viewController id="lCr-S1-Jbt" customClass="FirstViewController" customModule="Buoi14_Swift_TuongTacDaDiem" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6CC-9l-PFU"/>
+                        <viewControllerLayoutGuide type="bottom" id="bfF-Pe-3vK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0zT-Gw-aKc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7wW-cY-mxt">
+                                <rect key="frame" x="0.0" y="64" width="178" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tab Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDX-6d-ASD">
+                                        <rect key="frame" x="8" y="54" width="162" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="dXy-Rx-10d" appends="YES" id="QHL-Sb-Z9k"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lzZ-O2-L4s">
+                                <rect key="frame" x="0.0" y="200" width="375" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pinch Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArB-JO-ro7">
+                                        <rect key="frame" x="27" y="60" width="306" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oCV-Rg-Ip3" appends="YES" id="a9M-5u-tA6"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hY0-Ge-p0p">
+                                <rect key="frame" x="0.0" y="336" width="375" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rotate Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWW-5F-Wk1">
+                                        <rect key="frame" x="51" y="54" width="270" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="2QP-Kx-MDz" appends="YES" id="yW7-dK-kOZ"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o4h-jO-cuq">
+                                <rect key="frame" x="186" y="64" width="180" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swipe me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrs-hM-5B5">
+                                        <rect key="frame" x="8" y="54" width="149" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="OS0-x5-ibU" appends="YES" id="kvw-lE-2rV"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HYc-A3-9KI">
+                                <rect key="frame" x="0.0" y="482" width="159" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="pan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2l-Z5-fQr">
+                                        <rect key="frame" x="8" y="54" width="209" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Uhu-Oq-YVU" appends="YES" id="wt9-kW-lim"/>
+                                </connections>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WjJ-tt-kM3">
+                                <rect key="frame" x="167" y="482" width="199" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                    </view>
+                    <navigationItem key="navigationItem" id="g1s-rX-0NQ"/>
+                    <connections>
+                        <outlet property="imageView" destination="WjJ-tt-kM3" id="hVg-6u-N3C"/>
+                        <outlet property="txtPanMe" destination="w2l-Z5-fQr" id="Ju5-J8-U2h"/>
+                        <outlet property="txtPinchMe" destination="ArB-JO-ro7" id="kzb-Cz-jah"/>
+                        <outlet property="txtRotateMe" destination="oWW-5F-Wk1" id="jdT-bk-ely"/>
+                        <outlet property="txtSwipeMe" destination="nrs-hM-5B5" id="c39-GG-wth"/>
+                        <outlet property="txtTabMe" destination="wDX-6d-ASD" id="7hu-2Z-zUQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WHX-yd-Zdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="dXy-Rx-10d">
+                    <connections>
+                        <action selector="tap:" destination="lCr-S1-Jbt" id="fzc-LX-Szk"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="OS0-x5-ibU">
+                    <connections>
+                        <action selector="Swipe:" destination="lCr-S1-Jbt" id="YtK-nC-Cvb"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <pinchGestureRecognizer id="oCV-Rg-Ip3">
+                    <connections>
+                        <action selector="Pinch:" destination="lCr-S1-Jbt" id="unP-T9-UW0"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="2QP-Kx-MDz">
+                    <connections>
+                        <action selector="Rotation:" destination="lCr-S1-Jbt" id="3GR-KK-9bx"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Uhu-Oq-YVU">
+                    <connections>
+                        <action selector="Pan:" destination="lCr-S1-Jbt" id="AQM-3q-ivz"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="63.200000000000003" y="-256.82158920539734"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="FF8-63-agy">
+            <objects>
+                <tabBarController id="KmS-F6-FKs" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="HMA-Gd-GCK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Y3t-pC-Y3D" kind="relationship" relationship="viewControllers" id="iXe-Xc-GFl"/>
+                        <segue destination="Y0O-d0-7C5" kind="relationship" relationship="viewControllers" id="kIR-Bi-cfi"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oaE-Sk-6PM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1826" y="-109"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="UqQ-Kn-Kwb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y3t-pC-Y3D" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" id="u67-kj-MvB"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fjj-9w-STu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lCr-S1-Jbt" kind="relationship" relationship="rootViewController" id="2D0-BQ-HFS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fo4-4E-qms" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-876" y="-256.82158920539734"/>
+        </scene>
+    </scenes>
+</document>
